@@ -79,7 +79,7 @@ void inicializar_sc(Vector *particula,double *L){
 
     int i,j,k,n;
 
-    //FICHERO PARA ESCRIBIR LA CONFIGURACI”N INICIAL
+    //FICHERO PARA ESCRIBIR LA CONFIGURACI√ìN INICIAL
     FILE*f;
     f=fopen("Conf_inicial_sc.xyz","w");
     fprintf(f,"%d\n\n",N);
@@ -251,7 +251,7 @@ void Euler(Vector *particula, double L,double cutoff,double h){
     FILE*f2;
     f2=fopen("Energia_momento_t_Euler_h_0.0001.txt","w");
 
-    //ABRIMOS UN FICHERO PARA ESCRIBIR LAS ENERGÕAS
+    //ABRIMOS UN FICHERO PARA ESCRIBIR LAS ENERG√çAS
     //FILE*f3;
     //f3=fopen("Energias_Euler_h_0.001.txt","w");
     for(t=0;t<Nt;t++){
