@@ -88,7 +88,7 @@ void inicializar_sc(Vector *particula,double *L){
 
     int i,j,k,n;
 
-    //FICHERO PARA ESCRIBIR LA CONFIGURACI”N INICIAL
+    //FICHERO PARA ESCRIBIR LA CONFIGURACI√ìN INICIAL
     /*FILE*f;
     f=fopen("Conf_inicial_sc.xyz","w");
     fprintf(f,"%d\n\n",N);*/
@@ -278,7 +278,7 @@ void velocity_Verlet(double h,double L,Vector *particula,double cutoff,double T,
     /*FILE*f;
     f=fopen("Trayectoria_Verlet_h_0.1.txt","w");*/
 
-    //ABRIMOS UN FICHERO PARA ESCRIBIR LAS ENERGÕAS
+    //ABRIMOS UN FICHERO PARA ESCRIBIR LAS ENERG√çAS
     //FILE*f1;
     //f1=fopen("Energias_Verlet_h_0.001.txt","w");
     Vector fuerza[N]={0};
