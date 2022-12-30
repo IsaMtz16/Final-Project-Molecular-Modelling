@@ -78,7 +78,7 @@ void inicializar_sc(Vector *particula,double *L,double rho){
 
     int i,j,k,n;
 
-    //FICHERO PARA ESCRIBIR LA CONFIGURACIÓN INICIAL
+    //FICHERO PARA ESCRIBIR LA CONFIGURACIÃ“N INICIAL
     /*FILE*f;
     f=fopen("Conf_inicial_sc.xyz","w");
     fprintf(f,"%d\n\n",N);*/
